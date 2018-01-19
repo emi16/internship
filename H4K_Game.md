@@ -1,6 +1,7 @@
 <h1> Juggling </h1>
 
 <b> This is a simple guide on how to program your own juggling minigame with Scratch </b>
+<b> Note: While doing this, make sure to save your project often to prevent dataloss! </b>
 
 ![title](https://github.com/JeyAl/internship/blob/master/Introduction_Screen.png)
 
@@ -31,6 +32,18 @@ The first step will teach you how you use a sprite as a platform to juggle the b
 ![title](https://github.com/JeyAl/internship/blob/master/Variable.png)
 
    - [ ] If you now click on the green flag above the project, the D should turn sideways and glide a little bit torwards the bottom of the screen and turn into a platform!
+   - [ ] We have a platform so the next thing to do is, make a ball. Select the previously created ball sprite and add this script:
+   
+![title](https://github.com/JeyAl/internship/blob/master/Ball_Bounce.png)
+
+   - [ ] Now, if you click on the green flag, once the D has become the platform, the ball should start bouncing around in the project window.
+   
+<b>Step 2: Moving the platform and juggling the ball</b>
+   
+   - [ ] The next step will implement some code, which, once the D has become the platform, lets you control it with the right and left arrow keys.  
+   
+![title](https://github.com/JeyAl/internship/blob/master/D_Move.png)
+   
 
 
 
