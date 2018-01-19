@@ -4,7 +4,7 @@
 
 ![title](https://github.com/JeyAl/internship/blob/master/Introduction_Screen.png)
 
-<b>Step 1: Animating a platform and a ball</b>
+<b>Step 1: Animating a platform and a ball</b>  
 The first step will teach you how you use a sprite as a platform to juggle the ball
     
    <b>Activity Checklist</b>
