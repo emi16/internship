@@ -39,7 +39,8 @@ The first step will teach you how you use a sprite as a platform to juggle the b
    - [ ] Now, if you click on the green flag, once the D has become the platform, the ball should start bouncing around in the project window.
    
 <b>Step 2: Moving the platform and juggling the ball</b>
-   
+
+   <b>Activity checklist</b>
    - [ ] The next step will implement some code, which, once the D has become the platform, lets you control it with the right and left arrow keys.  
    
 ![title](https://github.com/JeyAl/internship/blob/master/D_Move.png)
