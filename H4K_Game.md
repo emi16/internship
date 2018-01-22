@@ -208,7 +208,7 @@ The first step will teach you how you use a sprite as a platform to juggle the b
 
    - [ ] Next, do the same as above, but this time make it a blue bar. For both, set the costume center cross to their bottom right just like you did with the D sprite.
    
-   - [ ] Now, we want to add some code to those bars. Add the following code to the blue bar.
+   - [ ] Now, we want to add some code to those bars. Add the following code to the blue bar.
    
 ![title](https://github.com/JeyAl/internship/blob/master/Scratch_Images/Blue_Bar_en.png)
 ![title](https://github.com/JeyAl/internship/blob/master/Scratch_Images/Blue_Bar_fr.png)
