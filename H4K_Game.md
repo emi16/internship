@@ -1,9 +1,8 @@
 # Juggling 
 
 <b> This is a simple guide on how to program your own juggling minigame with Scratch </b>  
-<b> Note: While doing this, make sure to save your project often to prevent dataloss! </b>  
-<b> There will be checkboxes in front of every step. This doesn't mean that every step has something to do.   
-    Sometimes it's just an explanation of the previous step for example. In that case, only check the box if you have truly understood the explanation.</b>
+<b> Note: While doing this, make sure to save your project often to prevent dataloss! </b>
+<b> There will be checkboxes in front of every step. This doesn't mean that every step has something to do. Sometimes it's just an explanation of the previous step for example. In that case, only check the box if you have truly understood the explanation</b>
 
 ![title](https://github.com/JeyAl/internship/blob/master/Scratch_Images/Introduction_Screen.png)
 
@@ -134,7 +133,7 @@ The first step will teach you how you use a sprite as a platform to juggle the b
 ![title](https://github.com/JeyAl/internship/blob/master/Scratch_Images/Scripts_en.png)
 ![title](https://github.com/JeyAl/internship/blob/master/Scratch_Images/Scripts_fr.png)
 
-   - [ ] Now, let's make the code, that will let the D sprite spin and float. Try to copy the following code:
+   - [ ] Now, let's make the code, that will let the D sprite spin and float. Select the D sprite and copy the following code:
    
 ![title](https://github.com/JeyAl/internship/blob/master/Scratch_Images/D_Turn_Code_fr.png)
 ![title](https://github.com/JeyAl/internship/blob/master/Scratch_Images/D_Turn_Code_en.png)
@@ -154,20 +153,18 @@ The first step will teach you how you use a sprite as a platform to juggle the b
    
    - [ ] Then we set the "Degrees" variable we previously created to 0, meaning we reset it every time we reset the game.
    
-   
-   - [ ] The big "repeat until" thing that surrounds other code is a loop, meaning whatever is inside is being repeated until the criteria is met. In other words, we repeatedly turn the D sprite by 1 degree to the right and then add 1 to the "Degrees" value until the variable "Degrees" equals 90. Simply put, we turn the D sprite 90 times by 1 degree really fast. After 90 times, the variable "Degrees" has the value 90, so the loop criteria is met and it stops.
-   
+   - [ ] The big "repeat until" thing that surrounds other code is a loop, meaning whatever is inside is being repeated until the criteria is met. In other words, we repeatedly turn the D sprite by 1 degree to the right and then add 1 to the "Degrees" value until the variable "Degrees" equals 90. Simply put, we turn the D sprite 90 times by 1 degree really fast. After 90 times, the variable "Degrees" has the value 90, so the loop criteria is met and it stops.
    
    - [ ] From a seperate starting point we then let the D sprite glide for 3 seconds to a predetermined point closer to the bottom of the project area. This has to be seperate because if we add it to the first block of code it will either turn or glide first, then do the other.  This way it does both at the same time.
    
 <b>Step 2: Make a bouncing ball</b>
 
-   - [ ] The following code will let your ball freely jump around: 
+   - [ ] Select the ball sprite and add the following code to let your ball freely jump around: 
    
 ![title](https://github.com/JeyAl/internship/blob/master/Scratch_Images/Base_Ball_en.png)
 ![title](https://github.com/JeyAl/internship/blob/master/Scratch_Images/Base_Ball_fr.png)
 
-   - [ ] First, when the flag is being clicked, we set the speed to the base value 8, you probably already guessed that this is a new variable you have to create, just like you did with "Degrees".
+   - [ ] Explanation of the code: When the flag is being clicked, we set the speed to the base value 8, you probably already guessed that this is a new variable you have to create, just like you did with "Degrees".
 
    - [ ] Then, just like with the D sprite, you assign a fixed position, that the ball will always return to when clicked on the green flag.
    
@@ -178,6 +175,52 @@ The first step will teach you how you use a sprite as a platform to juggle the b
    - [ ] Inside another loop, simply a loop that lasts forever as it says on it, we let the ball move at "speed" steps, so in other words 8, since we set the "speed" to 8 in the beginning.
    
    - [ ] And of course we let it bounce with the next line of code whenever it hits a wall.
+   
+<b> Step 3: Collision & Movement</b>
+
+   - [ ] Let's program controls for the platform and that whenever the ball touches the platform it bounces off.
+   
+   - [ ] Select the D sprite and add the following code to add controls to the platform, so you can move it left and right:
+   
+![title](https://github.com/JeyAl/internship/blob/master/Scratch_Images/Controls_en.png)
+![title](https://github.com/JeyAl/internship/blob/master/Scratch_Images/Controls_fr.png)
+
+   - [ ] Explanation of the code: After the game starts we wait 3 seconds first, to let the platform glide into position.
+   
+   - [ ] Now in a forever loop, we use a if statement, meaning that if something happens, something else is being executed. In this case we check "forever" since it's in a loop that if "left arrow" is being pressed, we change x, so the horizontal axis by -7 to move the platform to the righ. It's obviously the exact opposite if we want to move to the right, just that the x value here has to be positive.
+
+   - [ ] Select the ball sprite and add the following code to the code from before to let the ball bounce off of the platform:
+   
+   ![title](https://github.com/JeyAl/internship/blob/master/Scratch_Images/Ball_Bounce_en.png)
+   ![title](https://github.com/JeyAl/internship/blob/master/Scratch_Images/Ball_Bounce_fr.png)
+   
+   - [ ] The game should be playable now.... Somewhat. The Ball is probably going to react strangely upon collision with the platform or even the edge. The reason for this is because we check for collision with something white and the edge of the arena is white too.
+   
+   - [ ] Explanation of the code: We added a if statement that if the colour of the D sprite (white) is being touched then we change the direction to a random number somewhere in a cone facing upwards, additionally, we increase the speed slightly, so the ball becomes faster and faster.
+   
+<b>Step 4: Refining ball bouncing</b>
+
+   - [ ] Since the bouncing ball seems to be a bit out of control, let's add some additional code, to make the collision and bouncing a bit smoother.
+   
+      - [ ] Add a new sprite. This new sprite should be a yellow line that should be about 1 pixel wide and 7 pixel long. Pixels are shown as grey/white rectangles in the costumes window if you zoom in as shown in the picture below.
+   
+![title](https://github.com/JeyAl/internship/blob/master/Scratch_Images/Yellow_Bar.png)
+
+   - [ ] Next, do the same as above, but this time make it a blue bar. For both, set the costume center cross to their bottom right just like you did with the D sprite.
+   
+   - [ ] Now, we want to add some code to those bars. Add the following code to the blue bar.
+   
+![title](https://github.com/JeyAl/internship/blob/master/Scratch_Images/Blue_Bar_en.png)
+![title](https://github.com/JeyAl/internship/blob/master/Scratch_Images/Blue_Bar_fr.png)
+
+   - [ ] You probably noticed that this code is similar to the one that lets the D sprite turn and float down, this code essentially does the same with the blue bar, just that the bar is first invisible and appears once the platform is in position.
+   
+   - [ ]  Now you want to add the same code to the yellow bar, since this bar isn't at the exact same position, we have to change the output position slightly as shown here:
+
+![title](https://github.com/JeyAl/internship/blob/master/Scratch_Images/Yellow_Bar_en.png)
+![title](https://github.com/JeyAl/internship/blob/master/Scratch_Images/Yellow_Bar_fr.png)
+
+   - [ ] Next up, we change the previous collision detection from white to blue, and then add another collision detection for yellow.
 
 
 
@@ -228,13 +271,13 @@ The first step will teach you how you use a sprite as a platform to juggle the b
    
 ![title](https://github.com/JeyAl/internship/blob/master/Scratch_Images/Yellow_Bar.png)
 
-   - [ ] Next, do the same as above, but this time make it a blue bar. For both, set the costume center cross to their bottom right just like you did with the D letter.
+   - [ ] Next, do the same as above, but this time make it a blue bar. For both, set the costume center cross to their bottom right just like you did with the D sprite.
    
    - [ ] Now, we want to add some code to those bars. Add the following code to the blue bar.
    
 ![title](https://github.com/JeyAl/internship/blob/master/Scratch_Images/Blue_Bar_Position.png)
 
-   - [ ] You probably noticed that this code is similar to the one that lets the D turn and float down, this code essentially does the same with the blue bar, just that the bar is first invisible and appears once the platform is in position.
+   - [ ] You probably noticed that this code is similar to the one that lets the D sprite turn and float down, this code essentially does the same with the blue bar, just that the bar is first invisible and appears once the platform is in position.
    
    - [ ]  Now you want to add the same code to the yellow bar, since this bar isn't at the exact same position, we have to change the output position slightly as shown here:
 
