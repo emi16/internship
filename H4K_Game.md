@@ -58,7 +58,7 @@ The first step will teach you how you use a sprite as a platform to juggle the b
    
 ![title](https://github.com/JeyAl/internship/blob/master/Scratch_Images/D_Grid.png)
 
-   - [ ]  Select, the diagonal rectangles and drag them to make the D bigger. Should you accidently unselect the D or you're unsatisfied with the size, click on the little undo arrow that is pointing to the left, at the top part of this area.
+   - [ ]  Select, the diagonal rectangles and drag them to make the D bigger. Should you accidently unselect the D or you're unsatisfied with the size, click on the little undo arrow that is pointing to the left, at the top part of this area.  
    
 ![title](https://github.com/JeyAl/internship/blob/master/Scratch_Images/Undo.png)
    
