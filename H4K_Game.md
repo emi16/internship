@@ -20,7 +20,7 @@ The first step will teach you how you use a sprite as a platform to juggle the b
    - [ ]  Change the background of the stage to black. In order to do this, click on the stage to the left of the sprite area.
    
 ![title](https://github.com/JeyAl/internship/blob/master/Scratch_Images/Stage_en.png)
-![title](https://github.com/JeyAl/internship/blob/master/Scratch_Images/Stageg_fr.png)
+![title](https://github.com/JeyAl/internship/blob/master/Scratch_Images/Stage_fr.png)
    
    Then, add a Platform, a ball and the lava floor. (The Platform is just a D letter). This is what the stage should look like:
    
