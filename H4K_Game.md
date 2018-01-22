@@ -2,7 +2,8 @@
 
 <b> This is a simple guide on how to program your own juggling minigame with Scratch </b>  
 <b> Note: While doing this, make sure to save your project often to prevent dataloss! </b>  
-<b> There will be checkboxes in front of every step. This doesn't mean that every step has something to do. Sometimes it's just an explanation of the previous step for example. In that case, only check the box if you have truly understood the explanation</b>
+<b> There will be checkboxes in front of every step. This doesn't mean that every step has something to do.   
+    Sometimes it's just an explanation of the previous step for example. In that case, only check the box if you have truly understood the explanation.</b>
 
 ![title](https://github.com/JeyAl/internship/blob/master/Scratch_Images/Introduction_Screen.png)
 
