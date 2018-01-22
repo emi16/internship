@@ -154,7 +154,9 @@ The first step will teach you how you use a sprite as a platform to juggle the b
    
    - [ ] Then we set the "Degrees" variable we previously created to 0, meaning we reset it every time we reset the game.
    
-   - [ ] The big "repeat until" thing that surrounds other code is a loop, meaning whatever is inside is being repeated until the criteria is met. In other words, we repeatedly turn the D sprite by 1 degree to the right and then add 1 to the "Degrees" value until the variable "Degrees" equals 90. Simply put, we turn the D sprite 90 times by 1 degree really fast. After 90 times, the variable "Degrees" has the value 90, so the loop criteria is met and it stops.
+   
+   - [ ] The big "repeat until" thing that surrounds other code is a loop, meaning whatever is inside is being repeated until the criteria is met. In other words, we repeatedly turn the D sprite by 1 degree to the right and then add 1 to the "Degrees" value until the variable "Degrees" equals 90. Simply put, we turn the D sprite 90 times by 1 degree really fast. After 90 times, the variable "Degrees" has the value 90, so the loop criteria is met and it stops.
+   
    
    - [ ] From a seperate starting point we then let the D sprite glide for 3 seconds to a predetermined point closer to the bottom of the project area. This has to be seperate because if we add it to the first block of code it will either turn or glide first, then do the other.  This way it does both at the same time.
    
