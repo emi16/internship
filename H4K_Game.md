@@ -222,6 +222,12 @@ The first step will teach you how you use a sprite as a platform to juggle the b
 
    - [ ] Next up, we change the previous collision detection from white to blue, and then add another collision detection for yellow.
 
+![title](https://github.com/JeyAl/internship/blob/master/Scratch_Images/Bounce_Bars_en.png)
+![title](https://github.com/JeyAl/internship/blob/master/Scratch_Images/Bounce_Bars_fr.png)
+
+   - [ ] The only difference between these 2, is the angle. The different numbers mean that if the yellow bar is hit, the ball bounces off more torwards the right and if the blue one is hit, the ball bounces off more to the left.
+   
+   - [ ] The last thing missing, are the controls for these, since they're essentially stuck to the D sprite, we literally just copy the controls from the D sprite and paste them into the yellow and blue bar sprite code section (use drag and drop for this).
 
 
 
