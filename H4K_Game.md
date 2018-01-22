@@ -22,7 +22,7 @@ The first step will teach you how you use a sprite as a platform to juggle the b
 ![title](https://github.com/JeyAl/internship/blob/master/Scratch_Images/Stage_en.png)
 ![title](https://github.com/JeyAl/internship/blob/master/Scratch_Images/Stage_fr.png)
 
-   - [ ] Next, on the right side of your screen pick the bucket tool.
+   - [ ] Next, pick the bucket tool in the backdrop area.
    
 ![title](https://github.com/JeyAl/internship/blob/master/Scratch_Images/Palette.png)
 
@@ -45,7 +45,7 @@ The first step will teach you how you use a sprite as a platform to juggle the b
 
    - [ ] Now in the backdrop area on the right (The same area, where you painted the background black), you want to select the Text tool.
    
-![title](https://github.com/JeyAl/internship/blob/master/Scratch_Images/Backdrop_text.png)
+![title](https://github.com/JeyAl/internship/blob/master/Scratch_Images/Backdrop_Text.png)
 
    Then, add a Platform, a ball and the lava floor. (The Platform is just a D letter). This is what the stage should look like:
    
