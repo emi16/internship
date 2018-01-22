@@ -14,7 +14,7 @@ The first step will teach you how you use a sprite as a platform to juggle the b
    - [ ]  Start a new Scratch and delete the cat sprite so that your project is empty. Right click the cat sprite in the sprite area below the project area
    
 ![title](https://github.com/JeyAl/internship/blob/master/Scratch_Images/Del_Cat_en.png)
-![title](https://github.com/JeyAl/internship/blob/master/Scratch_Images/Del_Cat_fr.png)
+![title](https://github.com/JeyAl/internship/blob/master/Scratch_Images/Del_Cat_franc.png)
 
 
    
