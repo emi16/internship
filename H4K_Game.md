@@ -70,7 +70,7 @@ The first step will teach you how you use a sprite as a platform to juggle the b
 
 <b>Step 3: Creating the Ball</b>
 
-   - [ ] The game obviously needs a ball which we are going to create now. Create a new sprite, just like you did with the letter D.
+   - [ ] The game obviously needs a ball which we are going to create now. Create a new sprite, just like you did with the letter D.  
    
    - [ ] Before, we used the bucket and the text tool. This time we are going to use the circle tool.
    
