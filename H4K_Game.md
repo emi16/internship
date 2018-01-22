@@ -202,7 +202,7 @@ The first step will teach you how you use a sprite as a platform to juggle the b
 
    - [ ] Since the bouncing ball seems to be a bit out of control, let's add some additional code, to make the collision and bouncing a bit smoother.
    
-      - [ ] Add a new sprite. This new sprite should be a yellow line that should be about 1 pixel wide and 7 pixel long. Pixels are shown as grey/white rectangles in the costumes window if you zoom in as shown in the picture below.
+   - [ ] Add a new sprite. This new sprite should be a yellow line that should be about 1 pixel wide and 7 pixel long. Pixels are shown as grey/white rectangles in the costumes window if you zoom in as shown in the picture below.
    
 ![title](https://github.com/JeyAl/internship/blob/master/Scratch_Images/Yellow_Bar.png)
 
