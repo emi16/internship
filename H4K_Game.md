@@ -2,6 +2,7 @@
 
 <b> This is a simple guide on how to program your own juggling minigame with Scratch </b>  
 <b> Note: While doing this, make sure to save your project often to prevent dataloss! </b>
+<b> There will be checkboxes in front of every step. This doesn't mean that every step has something to do. Sometimes it's just an explanation of the previous step for example. In that case, only check the box if you have truly understood the explanation</b>
 
 ![title](https://github.com/JeyAl/internship/blob/master/Scratch_Images/Introduction_Screen.png)
 
@@ -54,15 +55,15 @@ The first step will teach you how you use a sprite as a platform to juggle the b
    - [ ] Now click into the area in the middle to open a text box. Enter a capital D. You do this by holding shift and then pressing the letter D. 
 ![title](https://github.com/JeyAl/internship/blob/master/Scratch_Images/Keyboard.png)
    
-   - [ ] Since the D is white it may seem invisible at first but it's there. Now, unselect the D by clicking anywhere else in this area. If you do this, a bunch of rectangles and dots are going to appear on the D.
+   - [ ] Since the D sprite is white it may seem invisible at first but it's there. Now, unselect the D sprite by clicking anywhere else in this area. If you do this, a bunch of rectangles and dots are going to appear on the D sprite.
    
 ![title](https://github.com/JeyAl/internship/blob/master/Scratch_Images/D_Grid.png)
 
-   - [ ]  Select, the diagonal rectangles and drag them to make the D bigger. Should you accidently unselect the D or you're unsatisfied with the size, click on the little undo arrow that is pointing to the left, at the top part of this area.  
+   - [ ]  Select, the diagonal rectangles and drag them to make the D sprite bigger. Should you accidently unselect the D sprite or you're unsatisfied with the size, click on the little undo arrow that is pointing to the left, at the top part of this area.  
    
 ![title](https://github.com/JeyAl/internship/blob/master/Scratch_Images/Undo.png)
    
-   - [ ]  If you're satisfied with the size of the D, click anywhere in the area again to unselect it and make it appear in your project area on the left side.
+   - [ ]  If you're satisfied with the size of the D sprite, click anywhere in the area again to unselect it and make it appear in your project area on the left side.
    
    - [ ] Your project should now look like this.
    
@@ -84,7 +85,7 @@ The first step will teach you how you use a sprite as a platform to juggle the b
 
    - [ ] Now, inside the area on the right, hold shift and the left mouse button, then drag the mouse to create a ball. The reason why you want to hold shift, is because it forces a perfectly round ball, without shift it may turn into an egg!
    
-   - [ ] From here on out it's the same as with the D, release the mouse button and click somewhere in this area to finish the creation of the ball, just like with the D, the ball should appear inside the project area on the right as well.
+   - [ ] From here on out it's the same as with the D sprite, release the mouse button and click somewhere in this area to finish the creation of the ball, just like with the D sprite, the ball should appear inside the project area on the right as well.
    
    - [ ] Your project should look similar to this.
    
@@ -99,7 +100,7 @@ The first step will teach you how you use a sprite as a platform to juggle the b
 ![title](https://github.com/JeyAl/internship/blob/master/Scratch_Images/Costume_Center_en.png)
 ![title](https://github.com/JeyAl/internship/blob/master/Scratch_Images/Costume_Center_fr.png)
 
-   - [ ] Go into the area with the cross, then hold your left mouse button and drag the cross in the bottom left corner of the D. If you can't see the D well enough or if you're  shaking too much, try zooming further in, by clicking on the magnifying glass in the bottom right of this area.
+   - [ ] Go into the area with the cross, then hold your left mouse button and drag the cross in the bottom left corner of the D sprite. If you can't see the D sprite well enough or if you're shaking too much, try zooming further in, by clicking on the magnifying glass in the bottom right of this area.
   
 ![title](https://github.com/JeyAl/internship/blob/master/Scratch_Images/Magn_Glass.png)
 
@@ -111,21 +112,69 @@ The first step will teach you how you use a sprite as a platform to juggle the b
    
    - [ ] Remember to use the undo function if something happened (i.e. The D disappeared).
    
-   - [ ] Next, do the same with the Ball. The difference here is that you want to put the cross right in the middle of the ball. This should be easier than with the D.
+   - [ ] Next, do the same with the Ball. The difference here is that you want to put the cross right in the middle of the ball. This should be easier than with the D sprite.
    
    - [ ] Now we got a propper set-up. Let's move on to the programing part shall we?
       
    
 ## Chapter 2: Basic juggling game
 
-<b>Step 1: Transform the D into a platform</b>
+<b>Step 1: Transform the D sprite into a platform</b>
 
-   - [ ] Once the game starts (When you click on the green flag above the project area). We want the D to float torwards the bottom and become the platform we juggle the ball with.
+   - [ ] Once the game starts (When you click on the green flag above the project area). We want the D sprite to float torwards the bottom and become the platform we juggle the ball with.
    
    - [ ] We were working in the costume tab of the sprites, now we're changing to the script tab. This is where we put the code.
    
 ![title](https://github.com/JeyAl/internship/blob/master/Scratch_Images/Tabs_en.png)
 ![title](https://github.com/JeyAl/internship/blob/master/Scratch_Images/Tabs_fr.png)
+
+   - [ ] The script window should look like this:
+   
+![title](https://github.com/JeyAl/internship/blob/master/Scratch_Images/Scripts_en.png)
+![title](https://github.com/JeyAl/internship/blob/master/Scratch_Images/Scripts_fr.png)
+
+   - [ ] Now, let's make the code, that will let the D sprite spin and float. Try to copy the following code:
+   
+![title](https://github.com/JeyAl/internship/blob/master/Scratch_Images/D_Turn_Code_fr.png)
+![title](https://github.com/JeyAl/internship/blob/master/Scratch_Images/D_Turn_Code_en.png)
+
+   - [ ] In order to completely write this code, a new variable has to be made. Click on Make a Variable under the Data option and call it "Degrees". Make sure to uncheck the variable after you created it, otherwise we will always see its value on screen and we don't want that.
+   
+![title](https://github.com/JeyAl/internship/blob/master/Scratch_Images/Variable_en.png)
+![title](https://github.com/JeyAl/internship/blob/master/Scratch_Images/Variable_fr.png)
+
+   - [ ] Once you click on the green flag above the project window, the D sprite should float slightly torwards the bottom of the area and at the same time to a 90 degree spin to the right.
+   
+   - [ ] Explanation of the code: When we click on the green flag, we set the D sprite to a specific x and y position which is somewhere in the middle. The x axis is basically the horizontal axis, where as the y axis is the vertical axis. If you move your mouse through the project area, you can see the axis of your mouse in the bottom right of the project area.
+   
+![title](https://github.com/JeyAl/internship/blob/master/Scratch_Images/axis.png)
+
+   - [ ] The pointing into direction part means it's pointing straight right. 0 would mean it would face straight upwards.
+   
+   - [ ] Then we set the "Degrees" variable we previously created to 0, meaning we reset it every time we reset the game.
+   
+   - [ ] The big "repeat until" thing that surrounds other code is a loop, meaning whatever is inside is being repeated until the criteria is met. In other words, we repeatedly turn the D sprite by 1 degree to the right and then add 1 to the "Degrees" value until the variable "Degrees" equals 90. Simply put, we turn the D sprite 90 times by 1 degree really fast. After 90 times, the variable "Degrees" has the value 90, so the loop criteria is met and it stops.
+   
+   - [ ] From a seperate starting point we then let the D sprite glide for 3 seconds to a predetermined point closer to the bottom of the project area. This has to be seperate because if we add it to the first block of code it will either turn or glide first, then do the other.  This way it does both at the same time.
+   
+<b>Step 2: Make a bouncing ball</b>
+
+   - [ ] The following code will let your ball freely jump around: 
+   
+![title](https://github.com/JeyAl/internship/blob/master/Scratch_Images/Base_Ball_en.png)
+![title](https://github.com/JeyAl/internship/blob/master/Scratch_Images/Base_Ball_fr.png)
+
+   - [ ] First, when the flag is being clicked, we set the speed to the base value 8, you probably already guessed that this is a new variable you have to create, just like you did with "Degrees".
+
+   - [ ] Then, just like with the D sprite, you assign a fixed position, that the ball will always return to when clicked on the green flag.
+   
+   - [ ] We let the ball face a random directon from -30 degrees to +30 degrees, which is basicly a cone facing straight up.
+   
+   - [ ] Then we wait 3 seconds. We do this so the ball doesn't start bouncing before the D sprite is in position.
+   
+   - [ ] Inside another loop, simply a loop that lasts forever as it says on it, we let the ball move at "speed" steps, so in other words 8, since we set the "speed" to 8 in the beginning.
+   
+   - [ ] And of course we let it bounce with the next line of code whenever it hits a wall.
 
 
 
