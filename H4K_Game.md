@@ -7,7 +7,7 @@
 
 ## Chapter 1: First steps
 
-<b>Step 1: Animating a platform and a ball</b>  
+<b>Step 1: Setting up a background</b>  
 The first step will teach you how you use a sprite as a platform to juggle the ball
     
    <b>Activity Checklist</b>
@@ -21,7 +21,32 @@ The first step will teach you how you use a sprite as a platform to juggle the b
    
 ![title](https://github.com/JeyAl/internship/blob/master/Scratch_Images/Stage_en.png)
 ![title](https://github.com/JeyAl/internship/blob/master/Scratch_Images/Stage_fr.png)
+
+   - [ ] Next, on the right side of your screen pick the bucket tool.
    
+![title](https://github.com/JeyAl/internship/blob/master/Scratch_Images/Palette.png)
+
+   - [ ] Make sure that black is chosen as colour. You have a colour palette below the area you're working in right now.
+ 
+![title](https://github.com/JeyAl/internship/blob/master/Scratch_Images/Colours.png)
+
+   - [ ] Now, with the bucket tool and black as colour selected, simply click into the big white area that you see on the right side of your screen. The result should look like this.  
+   
+![title](https://github.com/JeyAl/internship/blob/master/Scratch_Images/Backdrop.png)
+
+<b>Step 2: Adding a platform</b>
+   
+   - [ ] The juggling game needs a platform to bounce the ball off of. In this step  we're creating this platform, which in our case simply consists of the letter D.  
+ 
+   - [ ] Create a new sprite by clicking on the brush symbol above the sprite area.
+   
+![title](https://github.com/JeyAl/internship/blob/master/Scratch_Images/New_Sprite_en.png)
+![title](https://github.com/JeyAl/internship/blob/master/Scratch_Images/New_Sprite_fr.png)
+
+   - [ ] Now in the backdrop area on the right (The same area, where you painted the background black), you want to select the Text tool.
+   
+![title](https://github.com/JeyAl/internship/blob/master/Scratch_Images/Backdrop_text.png)
+
    Then, add a Platform, a ball and the lava floor. (The Platform is just a D letter). This is what the stage should look like:
    
 ![title](https://github.com/JeyAl/internship/blob/master/Scratch_Images/Base_Screen.png)
