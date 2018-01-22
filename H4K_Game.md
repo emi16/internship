@@ -34,9 +34,9 @@ The first step will teach you how you use a sprite as a platform to juggle the b
    
 ![title](https://github.com/JeyAl/internship/blob/master/Scratch_Images/Backdrop.png)
 
-<b>Step 2: Adding a platform</b>
+<b>Step 2: Creating the platform</b>
    
-   - [ ] The juggling game needs a platform to bounce the ball off of. In this step  we're creating this platform, which in our case simply consists of the letter D.  
+   - [ ] The juggling game needs a platform to bounce the ball off of. In this step  we're creating this platform, which in our case simply consists of the letter D. This letter, when the game starts, will go into position and act as platform! 
  
    - [ ] Create a new sprite by clicking on the brush symbol above the sprite area.
    
@@ -46,6 +46,49 @@ The first step will teach you how you use a sprite as a platform to juggle the b
    - [ ] Now in the backdrop area on the right (The same area, where you painted the background black), you want to select the Text tool.
    
 ![title](https://github.com/JeyAl/internship/blob/master/Scratch_Images/Backdrop_Text.png)
+
+   - [ ] Select white as coulour in the colour palette. (Both squares on the left of the colour palette are white)
+   
+![title](https://github.com/JeyAl/internship/blob/master/Scratch_Images/Colour_White.png)
+
+   - [ ] Now click into the area in the middle to open a text box. Enter a capital D. You do this by holding shift and then pressing the letter D. 
+![title](https://github.com/JeyAl/internship/blob/master/Scratch_Images/Keyboard.png)
+   
+   - [ ] Since the D is white it may seem invisible at first but it's there. Now, unselect the D by clicking anywhere else in this area. If you do this, a bunch of rectangles and dots are going to appear on the D.
+   
+![title](https://github.com/JeyAl/internship/blob/master/Scratch_Images/D_Grid.png)
+
+   - [ ]  Select, the diagonal rectangles and drag them to make the D bigger. Should you accidently unselect the D or you're unsatisfied with the size, click on the little undo arrow that is pointing to the left, at the top part of this area.
+   
+![title](https://github.com/JeyAl/internship/blob/master/Scratch_Images/Undo.png)
+   
+   - [ ]  If you're satisfied with the size of the D, click anywhere in the area again to unselect it and make it appear in your project area on the left side.
+   
+   - [ ] Your project should now look like this.
+   
+![title](https://github.com/JeyAl/internship/blob/master/Scratch_Images/Project1.png)
+
+<b>Step 3: Creating the Ball</b>
+
+   - [ ] The game obviously needs a ball which we are going to create now. Create a new sprite, just like you did with the letter D.
+   
+   - [ ] Before, we used the bucket and the text tool. This time we are going to use the circle tool.
+   
+![title](https://github.com/JeyAl/internship/blob/master/Scratch_Images/Select_Ball.png)
+
+   - [ ] Select a green colour in the colour palette. To the right of the colour palette you also want to select the "fill" option for the ball. This means that we aren't just drawing the outlines, but the full ball.
+   
+![title](https://github.com/JeyAl/internship/blob/master/Scratch_Images/Colour_Green.png)
+![title](https://github.com/JeyAl/internship/blob/master/Scratch_Images/Ball_Fill.png)
+
+
+
+
+
+
+
+
+----------------
 
    Then, add a Platform, a ball and the lava floor. (The Platform is just a D letter). This is what the stage should look like:
    
