@@ -77,10 +77,55 @@ The first step will teach you how you use a sprite as a platform to juggle the b
    
 ![title](https://github.com/JeyAl/internship/blob/master/Scratch_Images/Select_Ball.png)
 
-   - [ ] Select a green colour in the colour palette. To the right of the colour palette you also want to select the "fill" option for the ball. This means that we aren't just drawing the outlines, but the full ball.
+   - [ ] Select a green colour in the colour palette. To the left of the colour palette you also want to select the "fill" option for the ball. This means that we aren't just drawing the outlines, but the full ball.
    
-![title](https://github.com/JeyAl/internship/blob/master/Scratch_Images/Colour_Green.png)
 ![title](https://github.com/JeyAl/internship/blob/master/Scratch_Images/Ball_Fill.png)
+![title](https://github.com/JeyAl/internship/blob/master/Scratch_Images/Colour_Green.png)
+
+   - [ ] Now, inside the area on the right, hold shift and the left mouse button, then drag the mouse to create a ball. The reason why you want to hold shift, is because it forces a perfectly round ball, without shift it may turn into an egg!
+   
+   - [ ] From here on out it's the same as with the D, release the mouse button and click somewhere in this area to finish the creation of the ball, just like with the D, the ball should appear inside the project area on the right as well.
+   
+   - [ ] Your project should look similar to this.
+   
+![title](https://github.com/JeyAl/internship/blob/master/Scratch_Images/Project2.png)
+
+   - [ ] Before we move on to the programing, there's one more step required later on, that we should configure now.
+  
+<b>Step 4: Sprite Center</b>
+   
+   - [ ]  We  have to set the costume center. Select the D sprite, then, in the far right corner, you will see a cross symbol. select it.
+   
+![title](https://github.com/JeyAl/internship/blob/master/Scratch_Images/Costume_Center_en.png)
+![title](https://github.com/JeyAl/internship/blob/master/Scratch_Images/Costume_Center_fr.png)
+
+   - [ ] Go into the area with the cross, then hold your left mouse button and drag the cross in the bottom left corner of the D. If you can't see the D well enough or if you're  shaking too much, try zooming further in, by clicking on the magnifying glass in the bottom right of this area.
+  
+![title](https://github.com/JeyAl/internship/blob/master/Scratch_Images/Magn_Glass.png)
+
+   - [ ] You want to put the cross right here.
+   
+![title](https://github.com/JeyAl/internship/blob/master/Scratch_Images/D_Cross.png)
+
+   - [ ] Now let go off of the left mouse button, the position of the D will change but that's fine. This happens because you changed where the center of the D sprite is.
+   
+   - [ ] Remember to use the undo function if something happened (i.e. The D disappeared).
+   
+   - [ ] Next, do the same with the Ball. The difference here is that you want to put the cross right in the middle of the ball. This should be easier than with the D.
+   
+   - [ ] Now we got a propper set-up. Let's move on to the programing part shall we?
+      
+   
+## Chapter 2: Basic juggling game
+
+<b>Step 1: Transform the D into a platform</b>
+
+   - [ ] Once the game starts (When you click on the green flag above the project area). We want the D to float torwards the bottom and become the platform we juggle the ball with.
+   
+   - [ ] We were working in the costume tab of the sprites, now we're changing to the script tab. This is where we put the code.
+   
+![title](https://github.com/JeyAl/internship/blob/master/Scratch_Images/Tabs_en.png)
+![title](https://github.com/JeyAl/internship/blob/master/Scratch_Images/Tabs_fr.png)
 
 
 
