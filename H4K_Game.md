@@ -1,15 +1,22 @@
-<h1> Juggling </h1>
+# Juggling 
 
 <b> This is a simple guide on how to program your own juggling minigame with Scratch </b>  
 <b> Note: While doing this, make sure to save your project often to prevent dataloss! </b>
 
 ![title](https://github.com/JeyAl/internship/blob/master/Scratch_Images/Introduction_Screen.png)
 
+## Chapter 1: First steps
+
 <b>Step 1: Animating a platform and a ball</b>  
 The first step will teach you how you use a sprite as a platform to juggle the ball
     
    <b>Activity Checklist</b>
-   - [ ]  Start a new Scratch and delete the cat sprite so that your project is empty.  
+   - [ ]  Start a new Scratch and delete the cat sprite so that your project is empty. Right click the cat sprite in the sprite area below the project area
+   
+![title](https://github.com/JeyAl/internship/blob/master/Scratch_Images/Del_Cat_en.png)
+![title](https://github.com/JeyAl/internship/blob/master/Scratch_Images/Del_Cat_fr.png)
+
+
    
    - [ ]  Change the background of the stage to black. You can do this in the backdrops tab of the stage. Then, add a Platform, a ball and the lava floor. (The Platform is just a D letter). This is what the stage should look like:
    
