@@ -228,9 +228,87 @@ The first step will teach you how you use a sprite as a platform to juggle the b
    - [ ] The only difference between these 2, is the angle. The different numbers mean that if the yellow bar is hit, the ball bounces off more torwards the right and if the blue one is hit, the ball bounces off more to the left.
    
    - [ ] The last thing missing, are the controls for these, since they're essentially stuck to the D sprite, we literally just copy the controls from the D sprite and paste them into the yellow and blue bar sprite code section (use drag and drop for this).
+   
+   - [ ] You should have a basic juggling game now!
+   
+## Chapter 3: Upgrade
+
+<b>Step 1: Lava floor</b>
+
+   - [ ] We have the base now, but there is no goal or purpose to the game just yet.
+   
+   - [ ] Usually, in these kind of games, you have to make sure the ball doesn't pass the platform or else you lose. So let's start by programing a dead zone.
+   
+   - [ ] Create a new sprite just like you did before. Pick the rectangle tool.
+   
+![title](https://github.com/JeyAl/internship/blob/master/Scratch_Images/Rectangle.png)
+
+   - [ ] Since the dead zone is supposed to be dangerous, pick the colour red to make it look like lava.
+   
+![title](https://github.com/JeyAl/internship/blob/master/Scratch_Images/Rectangle_Colour.png)
+
+   - [ ] Also, remember to make it a full rectangle, not just the outlines.
+   
+![title](https://github.com/JeyAl/internship/blob/master/Scratch_Images/Bounce_Bars_fr.png)
+
+   - [ ] Now, draw a rectangle, just like you drew all the figures before.
+   
+   - [ ] Once you drew the rectangle you'll see the little squares again to adjust the size, make it as big as possible to make sure it'll fill the screen. Once you unselect the rectangle it will appear in the project area on the left, drag it torwards the bottom, to make it look like there's a lava floor.
+   
+![title](https://github.com/JeyAl/internship/blob/master/Scratch_Images/Lava_Floor.png)
+
+<b>Step 2: Game Over</b>
+
+   - [ ] Since the game has to end at one point, let's add code, which when the ball touches the lava, initiates a Game Over screen and ends the game.
+   
+   - [ ] In order to do the next bit, we have to look into broadcasts first:
+   
+![title](https://github.com/JeyAl/internship/blob/master/Scratch_Images/Broad_en.png)
+![title](https://github.com/JeyAl/internship/blob/master/Scratch_Images/Broad_fr.png)
+
+   - [ ] This lets you braodcast specific signals. Broadcasting means, you are sending the message stating in the broadcast throughout your entire code. Then on any sprite, you can program code, that will only get executed, once a specific broadcast signal is received.
+   
+![title](https://github.com/JeyAl/internship/blob/master/Scratch_Images/Broad2_en.png)
+![title](https://github.com/JeyAl/internship/blob/master/Scratch_Images/Broad2_fr.png)
+
+   - [ ] Go back to this code on the ball sprite:
+   
+![title](https://github.com/JeyAl/internship/blob/master/Scratch_Images/Bounce_Bars_en.png)
+![title](https://github.com/JeyAl/internship/blob/master/Scratch_Images/Bounce_Bars_fr.png)
+
+   - [ ] Now after the 2 if statements but still inside the forever loop, add the following code:
+   
+![title](https://github.com/JeyAl/internship/blob/master/Scratch_Images/Touch_Lava_en.png)
+![title](https://github.com/JeyAl/internship/blob/master/Scratch_Images/Touch_Lava_fr.png)
+
+   - [ ] We're broadcasting a bunch of different statements which we are going to use soon. We then wait 2 seconds and then the ball will glide back to its beginning position then we wait another 5 seconds for everything to end and then we end the entire code.
+   
+   - [ ] Add a new sprite. Make it white Text like you did before with the D sprite. Write "Game Over" in white. You can make this bigger too. Then put it in the middle of the screen.
+   
+   - [ ] It should look like this:
+   
+![title](https://github.com/JeyAl/internship/blob/master/Scratch_Images/End.png)
+
+   - [ ] Now choose that new Game Over sprite and add this code to it:
+   
+![title](https://github.com/JeyAl/internship/blob/master/Scratch_Images/Loss_en.png)
+![title](https://github.com/JeyAl/internship/blob/master/Scratch_Images/Loss_fr.png)
+
+   - [ ] Explanation of the code: The way this works is that we programmed in the ball sprite, that if the ball hits the colour red, so in other words the lava, it sends a broadcast with the message "loss" to every part of the code. Now in the Game Over sprite, we programmed that when the message "loss" is received it makes Game Over visible. So the Game Over is always there, it's just invisible until you actually lose, then it appears.
+   
+   - [ ] With this code, when the game ends, the platform is still movable, let's change that.
+   
+   - [ ] Go back to the script in the ball sprite. See the "key stop", "blue" and "yellow" broadcasts? We are going to use those now.
+   
+   - [ ] 
+   
+   
 
 
 
+
+   
+   
 
 
 
