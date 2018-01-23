@@ -298,11 +298,68 @@ The first step will teach you how you use a sprite as a platform to juggle the b
    
    - [ ] With this code, when the game ends, the platform is still movable, let's change that.
    
-   - [ ] Go back to the script in the ball sprite. See the "key stop", "blue" and "yellow" broadcasts? We are going to use those now.
+   - [ ] Go back to the script in the ball sprite. See the "key stop", "blue" and "yellow" broadcasts? We are going to use those now. To stop everything after the game ends.
    
-   - [ ] 
+   - [ ] Go to the blue bar sprite and add this code:
    
+![title](https://github.com/JeyAl/internship/blob/master/Scratch_Images/Blue_End_en.png)
+![title](https://github.com/JeyAl/internship/blob/master/Scratch_Images/Blue_End_fr.png)
+
+   - [ ] Do the same for the yellow bar:
    
+![title](https://github.com/JeyAl/internship/blob/master/Scratch_Images/Yellow_End_en.png)
+![title](https://github.com/JeyAl/internship/blob/master/Scratch_Images/Yellow_End_fr.png)
+
+   - [ ] And add this code to the D sprite:
+   
+![title](https://github.com/JeyAl/internship/blob/master/Scratch_Images/D_End_en.png)
+![title](https://github.com/JeyAl/internship/blob/master/Scratch_Images/D_End_fr.png)
+
+   - [ ] Explanation of the code: Once it receives the broadcast it stops all the other blocks of code in this sprite. This means that the block where we programmed the controls is going to stop working. Then it waits 2 seconds and finally puts the D sprite back into its initial position.
+   
+<b>Step 4: Score and Timer</b>
+
+   - [ ] Finally, lets add a timer, the current score and the top score to the game.
+   
+   - [ ] Create 3 new variables: Time, Score, Top Score. Make sure the box next to them is checked..
+   
+![title](https://github.com/JeyAl/internship/blob/master/Scratch_Images/Fin_Var.png)
+   
+   - [ ] They will now appear in your project area. Move them wherever you want.
+   
+   - [ ] Now go back to the big block of code in the ball sprite, and add this to the top of the code:
+   
+![title](https://github.com/JeyAl/internship/blob/master/Scratch_Images/Ball_Ini_en.png)
+![title](https://github.com/JeyAl/internship/blob/master/Scratch_Images/Ball_Ini_fr.png)
+
+   - [ ] This sets the score to 0 and the timer to 60 when a new game begins.
+   
+   - [ ] Now we add 3 more blocks of code to the ball sprite.
+   
+   - [ ] The first one is the following:
+   
+![title](https://github.com/JeyAl/internship/blob/master/Scratch_Images/Timer_en.png)
+![title](https://github.com/JeyAl/internship/blob/master/Scratch_Images/Timer_fr.png)
+
+   - [ ] This code is responsible for how the timer works.
+   
+   - [ ]  Explanation of the code: After 3 seconds the timer starts ticking down, until the ball hits the lava. Inside the loop we wait 1 second and then change the time by -1. Since it's a loop this means that every second the timer is going down by 1. Then the if statement if "Time" is equal to 0, so if the timer hits 0 it executes the same broadcasts that end the game as if we touched the lava, so it's saying we lost basically.
+   
+   - [ ] Next we save the top score with the following code:
+   
+![title](https://github.com/JeyAl/internship/blob/master/Scratch_Images/Score_en.png)
+![title](https://github.com/JeyAl/internship/blob/master/Scratch_Images/Score_fr.png)
+
+   - [ ] Explanation of code: The if statement checks that when the game ends, if the current score is higher than the top score, the top score will become what the current score was.
+   
+   - [ ] The final bit of code is this:
+   
+![title](https://github.com/JeyAl/internship/blob/master/Scratch_Images/Stop_en.png)
+![title](https://github.com/JeyAl/internship/blob/master/Scratch_Images/Stop_fr.png)
+
+   - [ ] All the extra functions should work now. Your complete juggling game is now done!
+   
+![title](https://github.com/JeyAl/internship/blob/master/Scratch_Images/Final.png)
 
 
 
