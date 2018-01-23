@@ -281,7 +281,7 @@ The first step will teach you how you use a sprite as a platform to juggle the b
 ![title](https://github.com/JeyAl/internship/blob/master/Scratch_Images/Touch_Lava_en.png)
 ![title](https://github.com/JeyAl/internship/blob/master/Scratch_Images/Touch_Lava_fr.png)
 
-   - [ ] We're broadcasting a bunch of different statements which we are going to use soon. We then wait 2 seconds and then the ball will glide back to its beginning position then we wait another 5 seconds for everything to end and then we end the entire code.
+   - [ ] We're broadcasting a bunch of different statements which we are going to use soon. We then wait 2 seconds and then the ball will glide back to its beginning position then we wait another 5 seconds for everything to end and then we end the entire code.
    
    - [ ] Add a new sprite. Make it white Text like you did before with the D sprite. Write "Game Over" in white. You can make this bigger too. Then put it in the middle of the screen.
    
