@@ -60,6 +60,8 @@ Cette première étape explique comment utiliser un "lutin" comme une plateforme
 <b>Etape 2: Création de la plateforme</b>
    
    - [ ] The juggling game needs a platform to bounce the ball off of. In this step  we're creating this platform, which in our case simply consists of the letter D. This letter, when the game starts, will go into position and act as platform! 
+   
+   - [ ] The juggling game needs a platform to bounce the ball off. In this step  we're creating this platform, which in our case simply consists of the letter D. This letter, when the game starts, will go into position and act as platform! Le jeu de jonglage a besoin d'une plateforme pour faire rebondir la balle. Dans cette étape, nous allons créer cette plateforme qui est en fait la lettre D.
  
    - [ ] Create a new sprite by clicking on the brush symbol above the sprite area.
    
