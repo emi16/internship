@@ -1,36 +1,56 @@
 # Juggling 
 
-<b> This is a simple guide on how to program your own juggling minigame with Scratch </b>  
-<b> Note: While doing this, make sure to save your project often to prevent dataloss! </b>
-<b> There will be checkboxes in front of every step. This doesn't mean that every step has something to do. Sometimes it's just an explanation of the previous step for example. In that case, only check the box if you have truly understood the explanation</b>
+<b>This is a simple guide on how to program your own juggling minigame with Scratch.</b>
+<b>Advice: While doing this, do not forget to often save your project to avoid dataloss!</b>
+<b>Each step starts with a checkbox. Only tick the checkbox to indicate that you and understood and managed to do the step.</b>
+
+<b>Ce guide explique comment programmer ton propre mini jeu de jonglage en recourant à la plateforme Scratch. </b>
+<b>Conseil: n'oublie pas de sauvegarder régulièrement ton projet pour éviter de perdre tes progressions.</b>
+<b>Chaque "étape" est précédée d'une case à cocher. Coche-la uniquement pour indiquer que tu as compris et réalisé l'étape.</b>
 
 ![title](https://github.com/JeyAl/internship/blob/master/Scratch_Images/Introduction_Screen.png)
 
 ## Chapter 1: First steps
 
+## Chapitre 1: premiers pas
+
 <b>Step 1: Setting up a background</b>  
 The first step will teach you how you use a sprite as a platform to juggle the ball
-    
-   <b>Activity Checklist</b>
+
+<b>Etape 1: mise en place de l'arrière-plan</b>
+Cette première étape explique comment utiliser un "lutin" comme une plateforme pour jongler avec la balle.
+
+      <b>Activity Checklist</b>
    - [ ]  Start a new Scratch and delete the cat sprite so that your project is empty. Right click the cat sprite in the sprite area below the project area
-   
+  
+      <b>Liste des activités</b>
+    - [ ]  Commence un nouveau projet Scratch: supprime le lutin "chat" pour que ton nouveau projet soit vierge. Clique droit sur le chat dans "l'espace du lutin" en dessous de la fenêtre qui montre le résultat de ton projet.
+  
 ![title](https://github.com/JeyAl/internship/blob/master/Scratch_Images/Del_Cat_en.png)
 ![title](https://github.com/JeyAl/internship/blob/master/Scratch_Images/Del_Cat_franc.png)
 
 
    - [ ]  Change the background of the stage to black. In order to do this, click on the stage to the left of the sprite area.
    
+   - [ ]  Met un arrière-plan noir. Pour ce faire, clique sur "scène" à gauche de l'espace du lutin"
+   
 ![title](https://github.com/JeyAl/internship/blob/master/Scratch_Images/Stage_en.png)
 ![title](https://github.com/JeyAl/internship/blob/master/Scratch_Images/Stage_fr.png)
 
-   - [ ] Next, pick the bucket tool in the backdrop area.
+   - [ ] After that, click on the paint tool (bucket) to fill the background.
+   
+   - [ ] Ensuite, clique sur le pot de peinture pour le remplissage de l'arrière-plan.
    
 ![title](https://github.com/JeyAl/internship/blob/master/Scratch_Images/Palette.png)
 
-   - [ ] Make sure that black is chosen as colour. You have a colour palette below the area you're working in right now.
+   - [ ] Select the black color from the palette below.
+   
+   - [ ] Sélectionne la couleur noire depuis la palette de couleurs au bas de l'écran. 
  
 ![title](https://github.com/JeyAl/internship/blob/master/Scratch_Images/Colours.png)
 
+   - [ ] Now, with the bucket tool and black as colour selected, simply click into the big white area that you see on the right side of your screen. The result should look like this.  
+   
    - [ ] Now, with the bucket tool and black as colour selected, simply click into the big white area that you see on the right side of your screen. The result should look like this.  
    
 ![title](https://github.com/JeyAl/internship/blob/master/Scratch_Images/Backdrop.png)
