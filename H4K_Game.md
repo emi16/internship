@@ -37,9 +37,9 @@ Cette première étape explique comment utiliser un "lutin" comme une plateforme
 ![title](https://github.com/JeyAl/internship/blob/master/Scratch_Images/Stage_en.png)
 ![title](https://github.com/JeyAl/internship/blob/master/Scratch_Images/Stage_fr.png)
 
-   - [ ] After that, click on the paint tool (bucket) to fill the background.
+   - [ ] After that, click on the paint tool (bucket) to change the background's color.
    
-   - [ ] Ensuite, clique sur le pot de peinture pour le remplissage de l'arrière-plan.
+   - [ ] Ensuite, clique sur le pot de peinture pour changer la couleur de l'arrière-plan.
    
 ![title](https://github.com/JeyAl/internship/blob/master/Scratch_Images/Palette.png)
 
@@ -49,13 +49,15 @@ Cette première étape explique comment utiliser un "lutin" comme une plateforme
  
 ![title](https://github.com/JeyAl/internship/blob/master/Scratch_Images/Colours.png)
 
-   - [ ] Now, with the bucket tool and black as colour selected, simply click into the big white area that you see on the right side of your screen. The result should look like this.  
+   - [ ] Now that you selected the black color, click in the big white area on the right side of your screen. The result should look like this.
    
-   - [ ] Now, with the bucket tool and black as colour selected, simply click into the big white area that you see on the right side of your screen. The result should look like this.  
+   - [ ] Maintenant que tu as sélectionné la couleur noire, clique dans l'espace blanc sur le côté droit de ton écran. Le résultat devrait ressembler à ça.
    
 ![title](https://github.com/JeyAl/internship/blob/master/Scratch_Images/Backdrop.png)
 
 <b>Step 2: Creating the platform</b>
+
+<b>Etape 2: Création de la plateforme</b>
    
    - [ ] The juggling game needs a platform to bounce the ball off of. In this step  we're creating this platform, which in our case simply consists of the letter D. This letter, when the game starts, will go into position and act as platform! 
  
